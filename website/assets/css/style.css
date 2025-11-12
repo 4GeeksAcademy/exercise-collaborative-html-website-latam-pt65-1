@@ -6,6 +6,14 @@ body {
   min-width: 400px;
   height: 100%;
   min-height: 350px;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.12), 0 2px 4px rgba(0, 0, 0, 0.08);
+  transition: all 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  cursor: pointer;
 }
 
 .card img {
@@ -13,4 +21,10 @@ body {
   object-fit: cover;
   width: 100%;
   object-position: center;
+}
+
+.contact-form {
+  max-width: 600px;
+  min-height: 300px;
+  box-shadow: 0 0 0 1px #ddd;
 }
